@@ -17,12 +17,23 @@
 
 
 .jewelry {
+	padding: 0 15px;
 	margin-bottom: .9375rem;
- 	border-bottom: 4px solid transparent;
-	transition: border-color .2s ease-out;
+
 }
+
+.jewelry:hover img {
+	border-bottom: 4px solid black;
+}
+
+.jewelry p {
+	
+}
+
 
 
 .jewelry img{
 	width: 100%;
+ 	border-bottom: 4px solid transparent;
+	transition: border-color .2s ease-out;
 }
