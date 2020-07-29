@@ -1,0 +1,28 @@
+.jewelry_block{
+	margin-bottom: 200px;
+}
+
+
+.jewelry_photo{
+	width: 100%;
+}
+
+
+.jewelry_obj{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	max-width: calc(100%-200px);
+   margin: 0 auto 200px;
+}
+
+
+.jewelry {
+	margin-bottom: .9375rem;
+ 	border-bottom: 4px solid transparent;
+	transition: border-color .2s ease-out;
+}
+
+
+.jewelry img{
+	width: 100%;
+}

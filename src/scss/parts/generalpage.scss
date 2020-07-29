@@ -1,0 +1,54 @@
+
+
+
+.idea_com {
+	background-image: url(../images/central_photo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	/*background-attachment: fixed;*/
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	margin: 0 0 200px 0;
+}
+
+.idea_com div {
+	display: inline-block;
+	float: left;
+	color: white;
+	margin: 400px 0px 0px 10%;
+	font-size: 2em;
+	opacity: 0.8;
+}
+
+.central_photo {
+	width: 100%;
+}
+
+
+
+
+.think_com {
+	max-width: calc(100%-200px);
+   margin: 0 auto 200px;
+
+	display: grid;
+  	grid-template-columns: repeat(2,1fr);
+  	flex-flow: wrap;
+   align-items: center;
+}
+
+
+.think_com img {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+.think_com_txt {
+	box-sizing: border-box;
+	max-width: calc(100%-100px);
+	height: 400px;
+	padding: 100px;
+	box-shadow: 8px 16px 64px 0 rgba(0,0,0,.08);
+   background: #fff;
+}
